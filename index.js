@@ -1,8 +1,3 @@
-// const argv = require("yargs").argv;
-
-// const yargs = require("yargs");
-// const { hideBin } = require("yargs/helpers");
-
 const { program } = require("commander");
 
 const contacts = require("./contacts");
@@ -57,7 +52,7 @@ invokeAction(options);
 // invokeAction({ action: "list" });
 
 //2. Знайти контакт за id
-// invokeAction({ action: "get", id: "1DEXoP8AuCGYc1YgoQ6hw" });
+// invokeAction({ action: "get", id: "GimGOKP9MUS2uFZPjBE8t" });
 
 //3. Додати новий контакт
 // invokeAction({
@@ -70,19 +65,14 @@ invokeAction(options);
 //4. Редагувати контакт по id
 // invokeAction({
 //   action: "updateById",
-//   id: "ST857Y6C8ighoQwUYacCs",
+//   id: "GimGOKP9MUS2uFZPjBE8t",
 //   name: "Big Beaver Kyivstar",
 //   email: "big-beaver@gmail.com",
 //   phone: "777888222333",
 // });
 
-//5. Видалити контакт по id
+// //5. Видалити контакт по id
 // invokeAction({
 //   action: "remove",
-//   id: "ST857Y6C8ighoQwUYacCs",
+//   id: "GimGOKP9MUS2uFZPjBE8t",
 // });
-
-//Виклик invokeAction через СLI за допомогою використання yargs
-// const arr = hideBin(process.argv);
-// const { argv } = yargs(arr);
-// invokeAction(argv);
